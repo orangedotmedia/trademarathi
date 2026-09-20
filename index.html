@@ -1,0 +1,3138 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover"
+>
+
+<title>मराठी ट्रेडिंग कम्युनिटी | ₹499 Lifetime Membership</title>
+
+<meta
+  name="description"
+  content="मराठी Traders साठी Daily Learning Sessions, Live Market Updates, Chart Analysis, Trading Community आणि Premium eBooks."
+>
+
+<style>
+
+/* =========================================================
+   RESET
+========================================================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#050607;
+    color:#f5f7fa;
+
+    font-family:
+        Arial,
+        "Noto Sans Devanagari",
+        "Nirmala UI",
+        sans-serif;
+
+    line-height:1.55;
+
+    overflow-x:hidden;
+}
+
+img{
+    display:block;
+    max-width:100%;
+}
+
+a{
+    color:inherit;
+    text-decoration:none;
+}
+
+button{
+    font-family:inherit;
+}
+
+
+/* =========================================================
+   VARIABLES
+========================================================= */
+
+:root{
+
+    --bg:#050607;
+
+    --surface:#090c0f;
+
+    --card:#0d1115;
+
+    --card-light:#12171c;
+
+    --gold:#f5b534;
+
+    --gold-light:#ffd96a;
+
+    --gold-dark:#d89314;
+
+    --green:#25d77b;
+
+    --red:#ff5962;
+
+    --white:#ffffff;
+
+    --text:#f5f7fa;
+
+    --muted:#9aa3ac;
+
+    --muted-dark:#69727b;
+
+    --border:rgba(255,255,255,.075);
+
+    --gold-border:rgba(245,181,52,.24);
+
+}
+
+
+/* =========================================================
+   GLOBAL
+========================================================= */
+
+.container{
+
+    width:calc(100% - 28px);
+
+    max-width:1120px;
+
+    margin:auto;
+
+}
+
+.gold{
+    color:var(--gold-light);
+}
+
+.green{
+    color:var(--green);
+}
+
+
+/* =========================================================
+   TOP ANNOUNCEMENT
+========================================================= */
+
+.topbar{
+
+    padding:8px 12px;
+
+    background:#07090b;
+
+    border-bottom:1px solid var(--border);
+
+    text-align:center;
+
+    color:#aeb6be;
+
+    font-size:10px;
+
+}
+
+.topbar strong{
+
+    color:var(--gold-light);
+
+}
+
+
+/* =========================================================
+   NAVIGATION
+========================================================= */
+
+nav{
+
+    position:sticky;
+
+    top:0;
+
+    z-index:1000;
+
+    background:rgba(5,6,7,.90);
+
+    backdrop-filter:blur(18px);
+
+    -webkit-backdrop-filter:blur(18px);
+
+    border-bottom:1px solid var(--border);
+
+}
+
+.nav{
+
+    height:64px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+}
+
+.brand{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:9px;
+
+}
+
+.brand-logo{
+
+    width:39px;
+
+    height:39px;
+
+    object-fit:contain;
+
+    border-radius:50%;
+
+    filter:
+
+        drop-shadow(
+            0 0 9px
+            rgba(245,181,52,.25)
+        );
+
+}
+
+.brand-text{
+
+    font-size:12px;
+
+    font-weight:900;
+
+    line-height:1.15;
+
+}
+
+.brand-text small{
+
+    display:block;
+
+    margin-top:2px;
+
+    color:#777f87;
+
+    font-size:7px;
+
+    letter-spacing:.7px;
+
+}
+
+.nav-cta{
+
+    padding:9px 13px;
+
+    border-radius:9px;
+
+    background:
+
+        linear-gradient(
+            135deg,
+            #ffdc73,
+            #e9a21e
+        );
+
+    color:#111;
+
+    font-size:10px;
+
+    font-weight:1000;
+
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero{
+
+    position:relative;
+
+    padding:38px 0 32px;
+
+    overflow:hidden;
+
+    text-align:center;
+
+}
+
+.hero::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:500px;
+
+    height:500px;
+
+    left:50%;
+
+    top:-290px;
+
+    transform:translateX(-50%);
+
+    background:
+
+        radial-gradient(
+            circle,
+            rgba(245,181,52,.15),
+            transparent 68%
+        );
+
+    pointer-events:none;
+
+}
+
+.hero-content{
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+
+/* =========================================================
+   HERO LOGO
+========================================================= */
+
+.hero-logo-wrap{
+
+    display:flex;
+
+    justify-content:center;
+
+    margin-bottom:18px;
+
+}
+
+.hero-logo{
+
+    width:145px;
+
+    height:145px;
+
+    object-fit:contain;
+
+    border-radius:50%;
+
+    filter:
+
+        drop-shadow(
+            0 0 18px
+            rgba(245,181,52,.25)
+        )
+
+        drop-shadow(
+            0 0 50px
+            rgba(245,181,52,.08)
+        );
+
+}
+
+
+/* =========================================================
+   HERO BADGE
+========================================================= */
+
+.eyebrow{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:7px;
+
+    padding:7px 11px;
+
+    border-radius:50px;
+
+    border:1px solid var(--gold-border);
+
+    background:rgba(245,181,52,.055);
+
+    color:var(--gold-light);
+
+    font-size:9px;
+
+    font-weight:900;
+
+    letter-spacing:.7px;
+
+    margin-bottom:16px;
+
+}
+
+.live-dot{
+
+    width:6px;
+
+    height:6px;
+
+    border-radius:50%;
+
+    background:var(--green);
+
+    box-shadow:
+
+        0 0 0 4px
+        rgba(37,215,123,.08);
+
+}
+
+
+/* =========================================================
+   HERO TEXT
+========================================================= */
+
+.hero h1{
+
+    font-size:43px;
+
+    line-height:1.04;
+
+    letter-spacing:-2px;
+
+    margin-bottom:15px;
+
+}
+
+.hero h1 span{
+
+    color:var(--gold);
+
+}
+
+.hero-description{
+
+    max-width:540px;
+
+    margin:0 auto 18px;
+
+    color:#b6bec7;
+
+    font-size:14px;
+
+}
+
+.hero-description strong{
+
+    color:#ffffff;
+
+}
+
+
+/* =========================================================
+   HERO FEATURE PILLS
+========================================================= */
+
+.pills{
+
+    display:flex;
+
+    gap:7px;
+
+    overflow-x:auto;
+
+    scrollbar-width:none;
+
+    padding:2px 1px 11px;
+
+    margin-bottom:14px;
+
+}
+
+.pills::-webkit-scrollbar{
+
+    display:none;
+
+}
+
+.pill{
+
+    flex:0 0 auto;
+
+    padding:7px 10px;
+
+    border-radius:50px;
+
+    background:#0c1014;
+
+    border:1px solid var(--border);
+
+    color:#c4cbd2;
+
+    font-size:9px;
+
+    white-space:nowrap;
+
+}
+
+
+/* =========================================================
+   OFFER CARD
+========================================================= */
+
+.offer-card{
+
+    padding:19px;
+
+    border-radius:21px;
+
+    background:
+
+        linear-gradient(
+            145deg,
+            rgba(245,181,52,.105),
+            rgba(255,255,255,.02)
+        );
+
+    border:1px solid var(--gold-border);
+
+    box-shadow:
+
+        0 25px 70px
+        rgba(0,0,0,.40);
+
+}
+
+.offer-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:13px;
+
+}
+
+.offer-label{
+
+    color:#858e96;
+
+    font-size:8px;
+
+    letter-spacing:1.2px;
+
+    font-weight:900;
+
+}
+
+.available{
+
+    color:var(--green);
+
+    font-size:8px;
+
+    font-weight:900;
+
+}
+
+.price-row{
+
+    display:flex;
+
+    align-items:baseline;
+
+    justify-content:center;
+
+    gap:7px;
+
+    margin-bottom:14px;
+
+}
+
+.price{
+
+    color:var(--gold-light);
+
+    font-size:55px;
+
+    line-height:1;
+
+    font-weight:1000;
+
+}
+
+.price-note{
+
+    color:#858e96;
+
+    font-size:9px;
+
+}
+
+.primary-btn{
+
+    width:100%;
+
+    min-height:54px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border-radius:12px;
+
+    background:
+
+        linear-gradient(
+            135deg,
+            #ffdc73,
+            #e9a21e
+        );
+
+    color:#111;
+
+    font-size:13px;
+
+    font-weight:1000;
+
+    box-shadow:
+
+        0 12px 32px
+        rgba(245,181,52,.16);
+
+    transition:.2s ease;
+
+}
+
+.primary-btn:active{
+
+    transform:scale(.98);
+
+}
+
+.secure-note{
+
+    margin-top:9px;
+
+    text-align:center;
+
+    color:#626a72;
+
+    font-size:8px;
+
+}
+
+
+/* =========================================================
+   TRUST BOXES
+========================================================= */
+
+.trust{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:5px;
+
+    margin-top:12px;
+
+}
+
+.trust-item{
+
+    padding:8px 3px;
+
+    border-radius:9px;
+
+    background:#090c0f;
+
+    border:1px solid var(--border);
+
+    text-align:center;
+
+    color:#8d969f;
+
+    font-size:8px;
+
+}
+
+.trust-item b{
+
+    display:block;
+
+    color:var(--green);
+
+    font-size:11px;
+
+}
+
+
+/* =========================================================
+   MARKET BAR
+========================================================= */
+
+.market-bar{
+
+    border-top:1px solid var(--border);
+
+    border-bottom:1px solid var(--border);
+
+    background:#080a0d;
+
+    overflow:hidden;
+
+}
+
+.market-scroll{
+
+    display:flex;
+
+    gap:23px;
+
+    overflow-x:auto;
+
+    scrollbar-width:none;
+
+    padding:10px 0;
+
+}
+
+.market-scroll::-webkit-scrollbar{
+
+    display:none;
+
+}
+
+.market-item{
+
+    flex:0 0 auto;
+
+    color:#737c85;
+
+    font-size:9px;
+
+    white-space:nowrap;
+
+}
+
+.market-item strong{
+
+    color:#d8dde2;
+
+    margin-right:4px;
+
+}
+
+
+/* =========================================================
+   SECTION
+========================================================= */
+
+section{
+
+    padding:60px 0;
+
+}
+
+.section-head{
+
+    text-align:center;
+
+    margin-bottom:29px;
+
+}
+
+.section-label{
+
+    margin-bottom:7px;
+
+    color:var(--gold);
+
+    font-size:9px;
+
+    font-weight:900;
+
+    letter-spacing:1.5px;
+
+    text-transform:uppercase;
+
+}
+
+.section-head h2{
+
+    margin-bottom:9px;
+
+    font-size:30px;
+
+    line-height:1.12;
+
+    letter-spacing:-1px;
+
+}
+
+.section-head p{
+
+    color:var(--muted);
+
+    font-size:11px;
+
+    max-width:600px;
+
+    margin:auto;
+
+}
+
+
+/* =========================================================
+   DARK SECTION
+========================================================= */
+
+.dark{
+
+    background:#080a0d;
+
+    border-top:1px solid rgba(255,255,255,.035);
+
+    border-bottom:1px solid rgba(255,255,255,.035);
+
+}
+
+
+/* =========================================================
+   LIVE DASHBOARD
+========================================================= */
+
+.dashboard-stack{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+
+}
+
+.dashboard{
+
+    padding:17px;
+
+    border-radius:17px;
+
+    background:
+
+        linear-gradient(
+            145deg,
+            #101419,
+            #0a0d10
+        );
+
+    border:1px solid var(--border);
+
+}
+
+.dashboard-header{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    margin-bottom:14px;
+
+}
+
+.dashboard-title{
+
+    font-size:14px;
+
+    font-weight:900;
+
+}
+
+.dashboard-sub{
+
+    margin-top:2px;
+
+    color:#717a83;
+
+    font-size:8px;
+
+}
+
+.dashboard-icon{
+
+    width:38px;
+
+    height:38px;
+
+    display:grid;
+
+    place-items:center;
+
+    border-radius:10px;
+
+    background:rgba(245,181,52,.07);
+
+    border:1px solid var(--gold-border);
+
+    font-size:17px;
+
+}
+
+.session{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:9px;
+
+    padding:10px;
+
+    margin-top:7px;
+
+    border-radius:10px;
+
+    background:rgba(255,255,255,.025);
+
+    border:1px solid rgba(255,255,255,.05);
+
+}
+
+.session-time{
+
+    width:32px;
+
+    color:var(--gold-light);
+
+    font-size:8px;
+
+    font-weight:900;
+
+}
+
+.session-title{
+
+    font-size:10px;
+
+    font-weight:800;
+
+}
+
+.session-sub{
+
+    color:#6e7780;
+
+    font-size:8px;
+
+}
+
+.active{
+
+    margin-left:auto;
+
+    padding:3px 6px;
+
+    border-radius:50px;
+
+    color:var(--green);
+
+    background:rgba(37,215,123,.06);
+
+    border:1px solid rgba(37,215,123,.18);
+
+    font-size:7px;
+
+    font-weight:900;
+
+}
+
+
+/* =========================================================
+   BENEFITS
+========================================================= */
+
+.benefits{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:9px;
+
+}
+
+.benefit{
+
+    padding:15px;
+
+    border-radius:15px;
+
+    background:#0d1115;
+
+    border:1px solid var(--border);
+
+}
+
+.benefit-icon{
+
+    width:36px;
+
+    height:36px;
+
+    display:grid;
+
+    place-items:center;
+
+    margin-bottom:9px;
+
+    border-radius:10px;
+
+    background:rgba(245,181,52,.07);
+
+    border:1px solid var(--gold-border);
+
+    font-size:16px;
+
+}
+
+.benefit h3{
+
+    margin-bottom:5px;
+
+    font-size:11px;
+
+    line-height:1.25;
+
+}
+
+.benefit p{
+
+    color:#7b848d;
+
+    font-size:9px;
+
+    line-height:1.5;
+
+}
+
+
+/* =========================================================
+   EBOOKS
+========================================================= */
+
+.ebooks{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:10px;
+
+}
+
+.ebook{
+
+    overflow:hidden;
+
+    border-radius:14px;
+
+    background:#0d1115;
+
+    border:1px solid var(--border);
+
+}
+
+.cover{
+
+    position:relative;
+
+    aspect-ratio:3/4;
+
+    display:flex;
+
+    align-items:flex-end;
+
+    padding:13px;
+
+    background:
+
+        radial-gradient(
+            circle at 50% 10%,
+            rgba(245,181,52,.24),
+            transparent 43%
+        ),
+
+        linear-gradient(
+            145deg,
+            #252b31,
+            #090b0d
+        );
+
+}
+
+.cover::after{
+
+    content:"PREMIUM";
+
+    position:absolute;
+
+    top:9px;
+
+    right:9px;
+
+    padding:4px 6px;
+
+    border-radius:50px;
+
+    border:1px solid var(--gold-border);
+
+    color:var(--gold-light);
+
+    font-size:6px;
+
+    font-weight:900;
+
+    letter-spacing:.8px;
+
+}
+
+.cover strong{
+
+    font-size:15px;
+
+    line-height:1.12;
+
+}
+
+.ebook-info{
+
+    padding:11px;
+
+}
+
+.ebook-info h3{
+
+    margin-bottom:3px;
+
+    font-size:10px;
+
+}
+
+.ebook-info p{
+
+    color:#727b84;
+
+    font-size:8px;
+
+}
+
+
+/* =========================================================
+   COMMUNITY
+========================================================= */
+
+.community-card{
+
+    padding:23px;
+
+    text-align:center;
+
+    border-radius:20px;
+
+    background:
+
+        linear-gradient(
+            145deg,
+            rgba(245,181,52,.10),
+            rgba(255,255,255,.02)
+        );
+
+    border:1px solid var(--gold-border);
+
+    margin-bottom:13px;
+
+}
+
+.community-logo{
+
+    width:75px;
+
+    height:75px;
+
+    margin:0 auto 10px;
+
+    object-fit:contain;
+
+    border-radius:50%;
+
+    filter:
+
+        drop-shadow(
+            0 0 14px
+            rgba(245,181,52,.2)
+        );
+
+}
+
+.community-number{
+
+    color:var(--gold-light);
+
+    font-size:53px;
+
+    line-height:1;
+
+    font-weight:1000;
+
+}
+
+.community-title{
+
+    margin-top:5px;
+
+    color:#a9b1b9;
+
+    font-size:11px;
+
+}
+
+.community-note{
+
+    margin-top:9px;
+
+    color:#626a72;
+
+    font-size:8px;
+
+}
+
+
+/* =========================================================
+   REAL FEEDBACK SECTION
+========================================================= */
+
+.feedback-note{
+
+    padding:11px 13px;
+
+    margin-bottom:12px;
+
+    border-radius:11px;
+
+    background:rgba(245,181,52,.045);
+
+    border:1px solid var(--gold-border);
+
+    color:#9fa7af;
+
+    text-align:center;
+
+    font-size:9px;
+
+}
+
+.feedback{
+
+    display:flex;
+
+    gap:9px;
+
+    overflow-x:auto;
+
+    scrollbar-width:none;
+
+    padding-bottom:5px;
+
+}
+
+.feedback::-webkit-scrollbar{
+
+    display:none;
+
+}
+
+.feedback-card{
+
+    flex:0 0 84%;
+
+    min-height:170px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    padding:19px;
+
+    border-radius:16px;
+
+    background:#0d1115;
+
+    border:1px solid var(--border);
+
+}
+
+.feedback-image{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:contain;
+
+    border-radius:10px;
+
+    background:#050607;
+
+}
+
+.stars{
+
+    color:var(--gold);
+
+    font-size:14px;
+
+    letter-spacing:1px;
+
+    margin-bottom:9px;
+
+}
+
+.feedback-card p{
+
+    color:#d2d7dc;
+
+    font-size:11px;
+
+}
+
+.feedback-card small{
+
+    margin-top:10px;
+
+    color:#626a72;
+
+    font-size:8px;
+
+}
+
+
+/* =========================================================
+   STEPS
+========================================================= */
+
+.steps{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:9px;
+
+}
+
+.step{
+
+    padding:16px;
+
+    text-align:center;
+
+    border-radius:14px;
+
+    background:#0d1115;
+
+    border:1px solid var(--border);
+
+}
+
+.step-number{
+
+    width:33px;
+
+    height:33px;
+
+    display:grid;
+
+    place-items:center;
+
+    margin:0 auto 9px;
+
+    border-radius:50%;
+
+    color:var(--gold-light);
+
+    background:rgba(245,181,52,.07);
+
+    border:1px solid var(--gold-border);
+
+    font-size:9px;
+
+    font-weight:900;
+
+}
+
+.step h3{
+
+    margin-bottom:4px;
+
+    font-size:11px;
+
+}
+
+.step p{
+
+    color:#737b84;
+
+    font-size:8px;
+
+}
+
+
+/* =========================================================
+   FAQ
+========================================================= */
+
+.faq{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:8px;
+
+}
+
+details{
+
+    border-radius:12px;
+
+    background:#0d1115;
+
+    border:1px solid var(--border);
+
+}
+
+summary{
+
+    list-style:none;
+
+    cursor:pointer;
+
+    padding:14px;
+
+    font-size:11px;
+
+    font-weight:800;
+
+}
+
+summary::-webkit-details-marker{
+
+    display:none;
+
+}
+
+summary::after{
+
+    content:"+";
+
+    float:right;
+
+    color:var(--gold);
+
+    font-size:17px;
+
+}
+
+details[open] summary::after{
+
+    content:"−";
+
+}
+
+details p{
+
+    padding:0 14px 14px;
+
+    color:#7d858e;
+
+    font-size:10px;
+
+}
+
+
+/* =========================================================
+   FINAL CTA
+========================================================= */
+
+.final{
+
+    padding:72px 0 100px;
+
+    text-align:center;
+
+    background:
+
+        radial-gradient(
+            circle at 50% 35%,
+            rgba(245,181,52,.12),
+            transparent 50%
+        );
+
+}
+
+.final h2{
+
+    font-size:37px;
+
+    line-height:1.04;
+
+    letter-spacing:-1.2px;
+
+    margin-bottom:11px;
+
+}
+
+.final p{
+
+    max-width:500px;
+
+    margin:0 auto 20px;
+
+    color:#89929b;
+
+    font-size:11px;
+
+}
+
+.final-price{
+
+    color:var(--gold-light);
+
+    font-size:55px;
+
+    line-height:1;
+
+    font-weight:1000;
+
+    margin-bottom:18px;
+
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+footer{
+
+    padding:28px 0 105px;
+
+    color:#5e6770;
+
+    text-align:center;
+
+    font-size:8px;
+
+}
+
+.disclaimer{
+
+    max-width:650px;
+
+    margin:11px auto;
+
+    line-height:1.7;
+
+}
+
+
+/* =========================================================
+   MOBILE STICKY CTA
+========================================================= */
+
+.mobile-cta{
+
+    position:fixed;
+
+    left:0;
+
+    right:0;
+
+    bottom:0;
+
+    z-index:2000;
+
+    padding:
+
+        8px
+        10px
+        calc(8px + env(safe-area-inset-bottom));
+
+    background:
+
+        rgba(5,6,7,.96);
+
+    backdrop-filter:blur(18px);
+
+    -webkit-backdrop-filter:blur(18px);
+
+    border-top:1px solid var(--gold-border);
+
+}
+
+.mobile-cta-inner{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:9px;
+
+}
+
+.mobile-price{
+
+    width:65px;
+
+    flex:0 0 65px;
+
+    text-align:center;
+
+}
+
+.mobile-price small{
+
+    display:block;
+
+    color:#707880;
+
+    font-size:6px;
+
+    letter-spacing:.6px;
+
+}
+
+.mobile-price strong{
+
+    display:block;
+
+    color:var(--gold-light);
+
+    font-size:19px;
+
+    line-height:1.1;
+
+}
+
+.mobile-button{
+
+    flex:1;
+
+    min-height:48px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border-radius:11px;
+
+    background:
+
+        linear-gradient(
+            135deg,
+            #ffdc73,
+            #e9a21e
+        );
+
+    color:#111;
+
+    font-size:12px;
+
+    font-weight:1000;
+
+}
+
+
+/* =========================================================
+   TABLET / DESKTOP
+========================================================= */
+
+@media(min-width:700px){
+
+    .container{
+
+        width:calc(100% - 50px);
+
+    }
+
+    .hero{
+
+        padding:70px 0;
+
+    }
+
+    .hero-logo{
+
+        width:175px;
+
+        height:175px;
+
+    }
+
+    .hero h1{
+
+        font-size:58px;
+
+    }
+
+    .hero-description{
+
+        font-size:17px;
+
+    }
+
+    .benefits{
+
+        grid-template-columns:repeat(3,1fr);
+
+    }
+
+    .ebooks{
+
+        grid-template-columns:repeat(4,1fr);
+
+    }
+
+    .dashboard-stack{
+
+        display:grid;
+
+        grid-template-columns:1.2fr .8fr;
+
+    }
+
+    .steps{
+
+        grid-template-columns:repeat(4,1fr);
+
+    }
+
+    .feedback-card{
+
+        flex:1;
+
+    }
+
+    .mobile-cta{
+
+        display:none;
+
+    }
+
+}
+
+
+/* =========================================================
+   VERY SMALL PHONES
+========================================================= */
+
+@media(max-width:360px){
+
+    .hero-logo{
+
+        width:125px;
+
+        height:125px;
+
+    }
+
+    .hero h1{
+
+        font-size:39px;
+
+    }
+
+    .price{
+
+        font-size:48px;
+
+    }
+
+    .benefit{
+
+        padding:13px;
+
+    }
+
+}
+
+
+/* =========================================================
+   REDUCE MOTION
+========================================================= */
+
+@media(prefers-reduced-motion:reduce){
+
+    html{
+
+        scroll-behavior:auto;
+
+    }
+
+    *{
+
+        transition:none !important;
+
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+     ANNOUNCEMENT
+========================================================= -->
+
+<div class="topbar">
+
+🔥
+<strong>मराठी Traders साठी Exclusive Community</strong>
+
+&nbsp;•&nbsp;
+
+Daily Learning
+
+&nbsp;•&nbsp;
+
+Live Market Updates
+
+</div>
+
+
+
+<!-- =========================================================
+     NAVIGATION
+========================================================= -->
+
+<nav>
+
+<div class="container nav">
+
+    <a href="#" class="brand">
+
+        <img
+            src="https://i.ibb.co/1fvWVsYz/Chat-GPT-Image-Sep-20-2026-02-48-33-PM.png"
+            class="brand-logo"
+            alt="मराठी ट्रेडिंग कम्युनिटी Logo"
+        >
+
+        <div class="brand-text">
+
+            मराठी ट्रेडिंग कम्युनिटी
+
+            <small>
+                LEARN • TRADE • GROW
+            </small>
+
+        </div>
+
+    </a>
+
+
+    <a
+        href="https://cosmofeed.com/vig/6aafbd6cce70740013fb6fcc"
+        class="nav-cta"
+    >
+
+        JOIN ₹499
+
+    </a>
+
+</div>
+
+</nav>
+
+
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+
+<header class="hero">
+
+<div class="container hero-content">
+
+
+    <div class="hero-logo-wrap">
+
+        <img
+            src="https://i.ibb.co/1fvWVsYz/Chat-GPT-Image-Sep-20-2026-02-48-33-PM.png"
+            class="hero-logo"
+            alt="मराठी ट्रेडिंग कम्युनिटी"
+        >
+
+    </div>
+
+
+    <div class="eyebrow">
+
+        <span class="live-dot"></span>
+
+        LIVE TRADING COMMUNITY
+
+    </div>
+
+
+    <h1>
+
+        Trading शिकायचंय?
+
+        <br>
+
+        <span>Start With The Community.</span>
+
+    </h1>
+
+
+    <p class="hero-description">
+
+        मराठी Traders साठी
+
+        <strong>Daily Learning Sessions</strong>,
+
+        <strong>Live Market Updates</strong>,
+
+        Chart Analysis आणि Trading Resources —
+
+        एका structured community मध्ये.
+
+    </p>
+
+
+    <!-- FEATURE PILLS -->
+
+    <div class="pills">
+
+        <div class="pill">
+            📚 Daily Learning
+        </div>
+
+        <div class="pill">
+            🔴 Live Updates
+        </div>
+
+        <div class="pill">
+            📊 Chart Analysis
+        </div>
+
+        <div class="pill">
+            👥 Community
+        </div>
+
+        <div class="pill">
+            🎁 4 eBooks
+        </div>
+
+    </div>
+
+
+    <!-- OFFER -->
+
+    <div class="offer-card">
+
+        <div class="offer-header">
+
+            <div class="offer-label">
+                LIFETIME MEMBERSHIP
+            </div>
+
+            <div class="available">
+                ● ACCESS AVAILABLE
+            </div>
+
+        </div>
+
+
+        <div class="price-row">
+
+            <div class="price">
+                ₹499
+            </div>
+
+            <div class="price-note">
+                one-time payment
+            </div>
+
+        </div>
+
+
+        <a
+            href="https://cosmofeed.com/vig/6aafbd6cce70740013fb6fcc"
+            class="primary-btn"
+        >
+
+            🚀 GET LIFETIME ACCESS
+
+        </a>
+
+
+        <div class="secure-note">
+
+            🔒 Secure checkout • Telegram access after payment
+
+        </div>
+
+    </div>
+
+
+    <!-- TRUST -->
+
+    <div class="trust">
+
+        <div class="trust-item">
+
+            <b>✓</b>
+
+            Lifetime
+
+        </div>
+
+
+        <div class="trust-item">
+
+            <b>✓</b>
+
+            4 eBooks
+
+        </div>
+
+
+        <div class="trust-item">
+
+            <b>✓</b>
+
+            Community
+
+        </div>
+
+    </div>
+
+
+</div>
+
+</header>
+
+
+
+<!-- =========================================================
+     MARKET STRIP
+========================================================= -->
+
+<div class="market-bar">
+
+<div class="container market-scroll">
+
+    <div class="market-item">
+
+        <strong>NIFTY</strong>
+
+        <span class="green">
+            Market Updates
+        </span>
+
+    </div>
+
+
+    <div class="market-item">
+
+        <strong>BANKNIFTY</strong>
+
+        <span class="green">
+            Analysis
+        </span>
+
+    </div>
+
+
+    <div class="market-item">
+
+        <strong>SENSEX</strong>
+
+        <span class="green">
+            Market View
+        </span>
+
+    </div>
+
+
+    <div class="market-item">
+
+        <strong>COMMUNITY</strong>
+
+        <span class="green">
+            LIVE
+        </span>
+
+    </div>
+
+</div>
+
+</div>
+
+
+
+<!-- =========================================================
+     DAILY EXPERIENCE
+========================================================= -->
+
+<section id="features">
+
+<div class="container">
+
+
+    <div class="section-head">
+
+        <div class="section-label">
+            INSIDE COMMUNITY
+        </div>
+
+        <h2>
+            रोज काहीतरी नवीन.
+        </h2>
+
+        <p>
+            Membership फक्त Telegram group नाही.
+            रोजच्या learning आणि market activity साठी structured experience.
+        </p>
+
+    </div>
+
+
+    <div class="dashboard-stack">
+
+
+        <!-- DAILY LEARNING -->
+
+        <div class="dashboard">
+
+            <div class="dashboard-header">
+
+                <div>
+
+                    <div class="dashboard-title">
+                        📚 Daily Learning Sessions
+                    </div>
+
+                    <div class="dashboard-sub">
+                        Learn trading step-by-step
+                    </div>
+
+                </div>
+
+
+                <div class="dashboard-icon">
+                    📚
+                </div>
+
+            </div>
+
+
+            <div class="session">
+
+                <div class="session-time">
+                    DAILY
+                </div>
+
+                <div>
+
+                    <div class="session-title">
+                        Trading Fundamentals
+                    </div>
+
+                    <div class="session-sub">
+                        Beginner-friendly concepts
+                    </div>
+
+                </div>
+
+                <div class="active">
+                    ACTIVE
+                </div>
+
+            </div>
+
+
+            <div class="session">
+
+                <div class="session-time">
+                    LIVE
+                </div>
+
+                <div>
+
+                    <div class="session-title">
+                        Chart Reading
+                    </div>
+
+                    <div class="session-sub">
+                        Technical analysis learning
+                    </div>
+
+                </div>
+
+                <div class="active">
+                    ACTIVE
+                </div>
+
+            </div>
+
+
+            <div class="session">
+
+                <div class="session-time">
+                    DAILY
+                </div>
+
+                <div>
+
+                    <div class="session-title">
+                        Market Learning
+                    </div>
+
+                    <div class="session-sub">
+                        Understand market structure
+                    </div>
+
+                </div>
+
+                <div class="active">
+                    ACTIVE
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- LIVE MARKET -->
+
+        <div class="dashboard">
+
+            <div class="dashboard-header">
+
+                <div>
+
+                    <div class="dashboard-title">
+                        🔴 Live Market Updates
+                    </div>
+
+                    <div class="dashboard-sub">
+                        Important market information
+                    </div>
+
+                </div>
+
+
+                <div class="dashboard-icon">
+                    🔴
+                </div>
+
+            </div>
+
+
+            <div class="session">
+
+                <div class="session-time">
+                    LIVE
+                </div>
+
+                <div>
+
+                    <div class="session-title">
+                        NIFTY
+                    </div>
+
+                    <div class="session-sub">
+                        Market update
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="session">
+
+                <div class="session-time">
+                    LIVE
+                </div>
+
+                <div>
+
+                    <div class="session-title">
+                        BANKNIFTY
+                    </div>
+
+                    <div class="session-sub">
+                        Market update
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="session">
+
+                <div class="session-time">
+                    LIVE
+                </div>
+
+                <div>
+
+                    <div class="session-title">
+                        SENSEX
+                    </div>
+
+                    <div class="session-sub">
+                        Market update
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+</section>
+
+
+
+<!-- =========================================================
+     BENEFITS
+========================================================= -->
+
+<section class="dark">
+
+<div class="container">
+
+
+    <div class="section-head">
+
+        <div class="section-label">
+            MEMBERSHIP
+        </div>
+
+        <h2>
+            ₹499 मध्ये काय मिळेल?
+        </h2>
+
+    </div>
+
+
+    <div class="benefits">
+
+
+        <div class="benefit">
+
+            <div class="benefit-icon">
+                📚
+            </div>
+
+            <h3>
+                DAILY LEARNING
+            </h3>
+
+            <p>
+                रोज नवीन trading concepts
+                आणि practical learning.
+            </p>
+
+        </div>
+
+
+        <div class="benefit">
+
+            <div class="benefit-icon">
+                🔴
+            </div>
+
+            <h3>
+                LIVE MARKET UPDATES
+            </h3>
+
+            <p>
+                NIFTY, BANKNIFTY, SENSEX
+                आणि market updates.
+            </p>
+
+        </div>
+
+
+        <div class="benefit">
+
+            <div class="benefit-icon">
+                📊
+            </div>
+
+            <h3>
+                CHART ANALYSIS
+            </h3>
+
+            <p>
+                Charts आणि technical analysis
+                समजण्यासाठी content.
+            </p>
+
+        </div>
+
+
+        <div class="benefit">
+
+            <div class="benefit-icon">
+                👥
+            </div>
+
+            <h3>
+                TRADING COMMUNITY
+            </h3>
+
+            <p>
+                Marathi Traders सोबत
+                discussion आणि learning.
+            </p>
+
+        </div>
+
+
+        <div class="benefit">
+
+            <div class="benefit-icon">
+                🛠️
+            </div>
+
+            <h3>
+                TRADING TOOLS
+            </h3>
+
+            <p>
+                Indicators, scanners आणि
+                educational resources.
+            </p>
+
+        </div>
+
+
+        <div class="benefit">
+
+            <div class="benefit-icon">
+                🎁
+            </div>
+
+            <h3>
+                4 PREMIUM EBOOKS
+            </h3>
+
+            <p>
+                Trading आणि investing
+                learning library.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+</section>
+
+
+
+<!-- =========================================================
+     EBOOKS
+========================================================= -->
+
+<section id="ebooks">
+
+<div class="container">
+
+
+    <div class="section-head">
+
+        <div class="section-label">
+            INCLUDED
+        </div>
+
+        <h2>
+            🎁 4 Premium eBooks
+        </h2>
+
+        <p>
+            Lifetime membership सोबत learning library.
+        </p>
+
+    </div>
+
+
+    <div class="ebooks">
+
+
+        <div class="ebook">
+
+            <div class="cover">
+
+                <strong>
+                    CANDLESTICK
+                    <br>
+                    PATTERN
+                    <br>
+                    MASTERY
+                </strong>
+
+            </div>
+
+            <div class="ebook-info">
+
+                <h3>
+                    Candlestick Pattern Mastery
+                </h3>
+
+                <p>
+                    Candlestick learning.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="ebook">
+
+            <div class="cover">
+
+                <strong>
+                    STOCK
+                    <br>
+                    MARKET
+                    <br>
+                    BASICS
+                </strong>
+
+            </div>
+
+            <div class="ebook-info">
+
+                <h3>
+                    Stock Market Basics
+                </h3>
+
+                <p>
+                    Market fundamentals.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="ebook">
+
+            <div class="cover">
+
+                <strong>
+                    OPTIONS
+                    <br>
+                    TRADING
+                    <br>
+                    MASTERY
+                </strong>
+
+            </div>
+
+            <div class="ebook-info">
+
+                <h3>
+                    Options Trading Mastery
+                </h3>
+
+                <p>
+                    Options concepts.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="ebook">
+
+            <div class="cover">
+
+                <strong>
+                    MUTUAL
+                    <br>
+                    FUND
+                    <br>
+                    GUIDE
+                </strong>
+
+            </div>
+
+            <div class="ebook-info">
+
+                <h3>
+                    Mutual Fund Guide
+                </h3>
+
+                <p>
+                    Investing fundamentals.
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+</section>
+
+
+
+<!-- =========================================================
+     COMMUNITY / SOCIAL PROOF
+========================================================= -->
+
+<section class="dark" id="feedback">
+
+<div class="container">
+
+
+    <div class="section-head">
+
+        <div class="section-label">
+            COMMUNITY
+        </div>
+
+        <h2>
+            Built Around Real Traders.
+        </h2>
+
+        <p>
+            Genuine member experiences आणि actual community feedback.
+        </p>
+
+    </div>
+
+
+    <div class="community-card">
+
+
+        <img
+            src="https://i.ibb.co/1fvWVsYz/Chat-GPT-Image-Sep-20-2026-02-48-33-PM.png"
+            class="community-logo"
+            alt="मराठी ट्रेडिंग कम्युनिटी"
+        >
+
+
+        <div class="community-number">
+            1000+
+        </div>
+
+
+        <div class="community-title">
+            Community Members*
+        </div>
+
+
+        <div class="community-note">
+
+            *1000+ वापरा फक्त तुमच्या actual current
+            community size शी ते अचूक असल्यास.
+
+        </div>
+
+    </div>
+
+
+    <div class="feedback-note">
+
+        💬 खालील section मध्ये तुमचे
+        <strong>actual Telegram member screenshots</strong>
+        वापरा.
+
+    </div>
+
+
+    <!-- FEEDBACK CARDS -->
+
+    <div class="feedback">
+
+
+        <!-- Replace this entire card with your actual screenshot -->
+
+        <div class="feedback-card">
+
+            <div class="stars">
+                ★★★★★
+            </div>
+
+            <p>
+                तुमचा genuine member feedback screenshot
+                येथे दाखवा.
+            </p>
+
+            <small>
+                REAL MEMBER FEEDBACK
+            </small>
+
+        </div>
+
+
+        <div class="feedback-card">
+
+            <div class="stars">
+                ★★★★★
+            </div>
+
+            <p>
+                तुमचा दुसरा genuine Telegram किंवा
+                WhatsApp feedback येथे दाखवा.
+            </p>
+
+            <small>
+                REAL MEMBER FEEDBACK
+            </small>
+
+        </div>
+
+
+        <div class="feedback-card">
+
+            <div class="stars">
+                ★★★★★
+            </div>
+
+            <p>
+                तुमचा strongest genuine member
+                feedback येथे दाखवा.
+            </p>
+
+            <small>
+                REAL MEMBER FEEDBACK
+            </small>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+</section>
+
+
+
+<!-- =========================================================
+     HOW IT WORKS
+========================================================= -->
+
+<section>
+
+<div class="container">
+
+
+    <div class="section-head">
+
+        <div class="section-label">
+            SIMPLE PROCESS
+        </div>
+
+        <h2>
+            Join करण्यासाठी 4 Steps
+        </h2>
+
+    </div>
+
+
+    <div class="steps">
+
+
+        <div class="step">
+
+            <div class="step-number">
+                01
+            </div>
+
+            <h3>
+                Membership
+            </h3>
+
+            <p>
+                ₹499 offer निवडा.
+            </p>
+
+        </div>
+
+
+        <div class="step">
+
+            <div class="step-number">
+                02
+            </div>
+
+            <h3>
+                Payment
+            </h3>
+
+            <p>
+                Secure checkout करा.
+            </p>
+
+        </div>
+
+
+        <div class="step">
+
+            <div class="step-number">
+                03
+            </div>
+
+            <h3>
+                Access
+            </h3>
+
+            <p>
+                Telegram access मिळवा.
+            </p>
+
+        </div>
+
+
+        <div class="step">
+
+            <div class="step-number">
+                04
+            </div>
+
+            <h3>
+                Start Learning
+            </h3>
+
+            <p>
+                Community मध्ये सुरुवात करा.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+</section>
+
+
+
+<!-- =========================================================
+     FAQ
+========================================================= -->
+
+<section class="dark" id="faq">
+
+<div class="container">
+
+
+    <div class="section-head">
+
+        <div class="section-label">
+            FAQ
+        </div>
+
+        <h2>
+            तुमचे प्रश्न
+        </h2>
+
+    </div>
+
+
+    <div class="faq">
+
+
+        <details>
+
+            <summary>
+                ₹499 मध्ये काय मिळते?
+            </summary>
+
+            <p>
+
+                Daily Learning Sessions,
+                Live Market Updates,
+                Chart Analysis,
+                Trading Community,
+                Trading Resources आणि listed
+                premium eBooks.
+
+            </p>
+
+        </details>
+
+
+        <details>
+
+            <summary>
+                Lifetime Membership आहे का?
+            </summary>
+
+            <p>
+
+                हो — जर तुमची actual offer
+                lifetime access ची असेल,
+                तर ₹499 मध्ये lifetime membership मिळेल.
+
+            </p>
+
+        </details>
+
+
+        <details>
+
+            <summary>
+                Beginner join करू शकतो का?
+            </summary>
+
+            <p>
+
+                हो. Learning content beginner-friendly
+                पद्धतीने ठेवता येईल.
+
+            </p>
+
+        </details>
+
+
+        <details>
+
+            <summary>
+                Payment नंतर access कसा मिळेल?
+            </summary>
+
+            <p>
+
+                Payment successful झाल्यानंतर
+                तुमच्या actual checkout process नुसार
+                Telegram access instructions दिल्या जातील.
+
+            </p>
+
+        </details>
+
+
+        <details>
+
+            <summary>
+                Profit guarantee आहे का?
+            </summary>
+
+            <p>
+
+                नाही. Trading मध्ये market risk असतो.
+                कोणताही guaranteed profit किंवा return promised नाही.
+
+            </p>
+
+        </details>
+
+
+    </div>
+
+</div>
+
+</section>
+
+
+
+<!-- =========================================================
+     FINAL CTA
+========================================================= -->
+
+<section class="final">
+
+<div class="container">
+
+
+    <div class="section-label">
+        READY TO JOIN?
+    </div>
+
+
+    <h2>
+
+        Learn.
+        <br>
+
+        Trade.
+        <br>
+
+        Grow Together.
+
+    </h2>
+
+
+    <p>
+
+        Daily Learning
+        • Live Market Updates
+        • Chart Analysis
+        • Community
+        • 4 Premium eBooks
+
+    </p>
+
+
+    <div class="final-price">
+        ₹499
+    </div>
+
+
+    <a
+        href="https://cosmofeed.com/vig/6aafbd6cce70740013fb6fcc"
+        class="primary-btn"
+    >
+
+        🚀 GET LIFETIME ACCESS
+
+    </a>
+
+
+    <div class="secure-note">
+
+        One-time payment • Lifetime membership
+
+    </div>
+
+</div>
+
+</section>
+
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer>
+
+<div class="container">
+
+
+    <strong style="color:#dfe3e8">
+
+        मराठी ट्रेडिंग कम्युनिटी
+
+    </strong>
+
+
+    <div class="disclaimer">
+
+        <strong>Risk Disclosure:</strong>
+
+        Trading and investing involve market risk.
+        Past performance or member experiences do not guarantee
+        future results. No guaranteed profit or return is promised.
+        Content is provided for educational and informational purposes.
+
+    </div>
+
+
+    © 2026 Marathi Trading Community.
+    All rights reserved.
+
+</div>
+
+</footer>
+
+
+
+<!-- =========================================================
+     MOBILE STICKY PURCHASE BAR
+========================================================= -->
+
+<div class="mobile-cta">
+
+<div class="container mobile-cta-inner">
+
+
+    <div class="mobile-price">
+
+        <small>
+            LIFETIME
+        </small>
+
+        <strong>
+            ₹499
+        </strong>
+
+    </div>
+
+
+    <a
+        href="https://cosmofeed.com/vig/6aafbd6cce70740013fb6fcc"
+        class="mobile-button"
+    >
+
+        🚀 JOIN NOW — ₹499
+
+    </a>
+
+
+</div>
+
+</div>
+
+
+
+</body>
+</html>
